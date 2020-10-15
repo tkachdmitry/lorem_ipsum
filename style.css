@@ -1,0 +1,140 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+ul[class],
+ol[class] {
+    padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+ul[class],
+ol[class] {
+    list-style: none;
+}
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+article > * + * {
+    margin-top: 1em;
+}
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+img:not([alt]) {
+    filter: blur(10px);
+}
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+body {
+    background-color: azure;
+    font-family: Verdana, "Trebuchet MS", Geneva, sans-serif;
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #0000CD;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+label {
+    text-transform: uppercase;
+}
+
+.numofparagraphs {
+    background: transparent;
+    border-radius: 10px;
+    margin-top: 16px;
+    border: 2px solid #87CEFA;
+    width: 120px;
+    text-align: center;
+    outline: none;
+}
+
+.button {
+    color: #1E90FF;
+    font-weight: 700;
+    border-radius: 10px;
+    text-transform: uppercase;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    margin: 0 auto;
+    border: 3px solid #87CEFA;
+    box-shadow: 0 1px 2px #C0C0C0;
+    transition: all 0.2s ease-in-out;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+}
+
+.button:hover {
+    background: #fff;
+    color: #1E90FF;
+}
+
+.center {
+    padding: 0 200px 0;
+    margin: 0 auto;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.output-lorem {
+    margin-top: 22px;
+}
